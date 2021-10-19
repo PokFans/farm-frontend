@@ -149,7 +149,7 @@ const NftCard: React.FC<NftCardProps> = ({ nft }) => {
         )}
         {isInitialized && canBurnNft && walletOwnsNft && (
           <Button variant="danger" fullWidth onClick={onPresentBurnModal} mt="24px">
-            {TranslateString(999, 'Trade in for POK')}
+            {TranslateString(999, 'Trade in for BRY')}
           </Button>
         )}
       </CardBody>
@@ -164,7 +164,7 @@ const NftCard: React.FC<NftCardProps> = ({ nft }) => {
             </Text>
             <InfoRow>
               <Text>{TranslateString(999, 'Value if traded in')}:</Text>
-              <Value>10 POK</Value>
+              <Value>10 BRY</Value>
             </InfoRow>
             <InfoRow>
               <Text>{TranslateString(999, 'Number minted')}:</Text>

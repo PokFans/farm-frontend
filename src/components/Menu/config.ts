@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://swap.pokfans.com/#/swap',
+        href: 'https://dex.prodax.io',
       },
       {
         label: 'Liquidity',
-        href: 'https://swap.pokfans.com/#/pool',
+        href: 'https://dex.prodax.io/liquidity',
       },
     ],
   },
@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/pokfans',
+        href: 'https://github.com/bryfans',
       },
       {
         label: 'Bscscan',
@@ -62,7 +62,7 @@ const config: MenuEntry[] = [
   //  {
   //    label: 'Audit',
   //    icon: 'AuditIcon',
-  //    href: 'https://pokswap.finance/file/pok-swap.pdf',
+  //    href: 'https://bryswap.finance/file/bry-swap.pdf',
   //  },
 ]
 

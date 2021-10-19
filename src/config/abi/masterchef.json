@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract pokToken",
-        "name": "_pok",
+        "internalType": "contract bryToken",
+        "name": "_bry",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_pokPerBlock",
+        "name": "_bryPerBlock",
         "type": "uint256"
       },
       {
@@ -154,10 +154,10 @@
   },
   {
     "inputs": [],
-    "name": "pok",
+    "name": "bry",
     "outputs": [
       {
-        "internalType": "contract pokToken",
+        "internalType": "contract bryToken",
         "name": "",
         "type": "address"
       }
@@ -168,7 +168,7 @@
   },
   {
     "inputs": [],
-    "name": "pokPerBlock",
+    "name": "bryPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -235,7 +235,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accpokPerShare",
+        "name": "accbryPerShare",
         "type": "uint256"
       },
       {
@@ -434,7 +434,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingpok",
+    "name": "pendingbry",
     "outputs": [
       {
         "internalType": "uint256",
@@ -545,7 +545,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_pokPerBlock",
+        "name": "_bryPerBlock",
         "type": "uint256"
       }
     ],

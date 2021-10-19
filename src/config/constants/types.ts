@@ -21,7 +21,7 @@ export interface Ifo {
 
 export enum QuoteToken {
   'BNB' = 'BNB',
-  'POK' = 'POK',
+  'BRY' = 'BRY',
   'CAKE' = 'CAKE',
   'SYRUP' = 'SYRUP',
   'BUSD' = 'BUSD',
@@ -37,7 +37,7 @@ export enum PoolCategory {
 
 export interface Address {
   97?: string
-  56: string
+  24: string
 }
 
 export interface FarmConfig {

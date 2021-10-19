@@ -96,8 +96,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
   const [showExpandableSection, setShowExpandableSection] = useState(false)
 
   // const isCommunityFarm = communityFarms.includes(farm.tokenSymbol)
-  // We assume the token name is coin pair + lp e.g. POK-BNB LP, LINK-BNB LP,
-  // NAR-POK LP. The images should be cake-bnb.svg, link-bnb.svg, nar-cake.svg
+  // We assume the token name is coin pair + lp e.g. BRY-BNB LP, LINK-BNB LP,
+  // NAR-BRY LP. The images should be cake-bnb.svg, link-bnb.svg, nar-cake.svg
   // const farmImage = farm.lpSymbol.split(' ')[0].toLocaleLowerCase()
   const farmImage = farm.isTokenOnly
     ? farm.tokenSymbol.toLowerCase()
@@ -110,7 +110,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     if (farm.quoteTokenSymbol === QuoteToken.BNB) {
       return bnbPrice.times(farm.lpTotalInQuoteToken)
     }
-    if (farm.quoteTokenSymbol === QuoteToken.POK) {
+    if (farm.quoteTokenSymbol === QuoteToken.BRY) {
       return cakePrice.times(farm.lpTotalInQuoteToken)
     }
     return farm.lpTotalInQuoteToken
@@ -121,7 +121,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     : '-'
 
   const lpLabel = farm.lpSymbol
-  const earnLabel = 'POK'
+  const earnLabel = 'BRY'
   const farmAPY =
     farm.apy &&
     farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
@@ -133,7 +133,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 
   return (
     <FCard>
-      {farm.tokenSymbol === 'POK' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'BRY' && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}

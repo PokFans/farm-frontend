@@ -48,20 +48,20 @@ const Ifo = () => {
           <Title as="h2">{TranslateString(592, 'How to take part')}</Title>
           <Heading mb="16px">{TranslateString(594, 'Before Sale')}:</Heading>
           <List>
-            <li>{TranslateString(596, 'Buy POK and BNB tokens')}</li>
-            <li>{TranslateString(598, 'Get POK-BNB LP tokens by adding POK and BNB liquidity')}</li>
+            <li>{TranslateString(596, 'Buy BRY and BNB tokens')}</li>
+            <li>{TranslateString(598, 'Get BRY-BNB LP tokens by adding BRY and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
-            <LinkExternal href="https://swap.pokswap.finance/#/swap" mr="16px">
+            <LinkExternal href="https://swap.bryswap.finance/#/swap" mr="16px">
               {TranslateString(999, 'Buy cake')}
             </LinkExternal>
-            <LinkExternal href="https://swap.pokswap.finance/#/add/ETH/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82">
+            <LinkExternal href="https://swap.bryswap.finance/#/add/ETH/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82">
               {TranslateString(999, 'Get LP tokens')}
             </LinkExternal>
           </Flex>
           <Heading mb="16px">{TranslateString(600, 'During Sale')}:</Heading>
           <List>
-            <li>{TranslateString(602, 'While the sale is live, commit your POK-LP tokens to buy the IFO tokens')}</li>
+            <li>{TranslateString(602, 'While the sale is live, commit your BRY-LP tokens to buy the IFO tokens')}</li>
           </List>
           <Heading mb="16px">{TranslateString(604, 'After Sale')}:</Heading>
           <List>
